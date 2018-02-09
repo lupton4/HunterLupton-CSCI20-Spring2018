@@ -1,0 +1,10 @@
+Bug Report:
+	Discovered a bug in my game that I have been maintaining when it was being played by a friend. The bug seemed to be in a forever repeating loop by picking one decision it forces you to back out of the room without being able to grab the artifact.
+	I believe the problem to be that if the game thinks the player already has the artifact it will auto kick them back to the beginning room. I will look into it a try to track down the problem to either the value of having the artifact or the series of events that auto kicks the player.
+
+Fix: It was both the series of events and the value, you have the option to back out of the room and not grab the artifact but that in turn changes the value allowing you to not return.
+Bug Report:
+	Discovered a bug in my game that I have been maintaining when it was being played by a friend. The bug seemed to be in a forever repeating loop by picking one decision it forces you to back out of the room without being able to grab the artifact.
+	I believe the problem to be that if the game thinks the player already has the artifact it will auto kick them back to the beginning room. I will look into it a try to track down the problem to either the value of having the artifact or the series of events that auto kicks the player.
+
+Fix: It was both the series of events and the value, you have the option to back out of the room and not grab the artifact but that in turn changes the value allowing you to not return.
