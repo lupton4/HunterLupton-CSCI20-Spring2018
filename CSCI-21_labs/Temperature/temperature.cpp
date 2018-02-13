@@ -107,7 +107,7 @@
   
   double Temperature::GetTempAsFahrenheit() const{
       double far;
-      far = ((((kelvin_-273.15) * 9.0) / 5) + 32);
+      far = (((GetTempAsCelsius() * 9.0) / 5) + 32);
       return far;
   }
 
